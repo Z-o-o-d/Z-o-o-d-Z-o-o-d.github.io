@@ -1,10 +1,18 @@
+/*
+ * @Author: Zeee jinze2021@dgut.edu.cn
+ * @Date: 2024-09-10 17:41:37
+ * @LastEditors: Zeee jinze2021@dgut.edu.cn
+ * @LastEditTime: 2024-09-11 21:14:28
+ * @FilePath: \myblog\src\components\HomepageFeatures\index.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Easy to Use111',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -35,7 +43,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Zeee Site',
+  title: 'zeee.tech',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -87,12 +87,14 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Zeee Site',
+        title: 'ZeEE.TECH',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
+
+
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -101,7 +103,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Z-o-o-d',
             label: 'GitHub',
             position: 'right',
           },
@@ -156,12 +158,16 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/Z-o-o-d/',
               },
+              {
+                label: 'bilibili',
+                href: 'https://space.bilibili.com/31042360',
+              },
             ],
           },
 
 
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NoneCopyright, Inc. Built with Docusaurus.`,
       },
 
 
