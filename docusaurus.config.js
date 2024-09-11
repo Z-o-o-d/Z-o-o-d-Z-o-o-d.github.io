@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Zeee Site',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -35,6 +35,10 @@ const config = {
     locales: ['en'],
   },
 
+
+
+
+
   presets: [
     [
       'classic',
@@ -47,6 +51,8 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+
+
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -62,6 +68,8 @@ const config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+
+
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -69,13 +77,17 @@ const config = {
     ],
   ],
 
+
+
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Zeee Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -95,6 +107,11 @@ const config = {
           },
         ],
       },
+
+
+
+
+
       footer: {
         style: 'dark',
         links: [
@@ -107,6 +124,8 @@ const config = {
               },
             ],
           },
+
+
           {
             title: 'Community',
             items: [
@@ -124,6 +143,8 @@ const config = {
               },
             ],
           },
+
+
           {
             title: 'More',
             items: [
@@ -133,13 +154,20 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Z-o-o-d/',
               },
             ],
           },
+
+
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
+
+
+
+
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
