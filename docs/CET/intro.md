@@ -2,7 +2,7 @@
  * @Author: ze 874074406@qq.com
  * @Date: 2024-09-18 17:37:22
  * @LastEditors: ze 874074406@qq.com
- * @LastEditTime: 2024-09-19 13:02:33
+ * @LastEditTime: 2024-09-19 13:04:20
  * @FilePath: \Z-o-o-d.github.io\docs\CET\intro.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -29,7 +29,7 @@ sidebar_position: 2
 
 ### 报名时间
 
-　　请考生按所在学校规定时间登陆CET全国网上报名系统[cet-bm.neea.edu.cn](cet-bm.neea.edu.cn)完成资格审核、笔试报名缴费及口试报名缴费。
+　　请考生按所在学校规定时间登陆CET全国网上报名系统[cet-bm.neea.edu.cn](https://cet-bm.neea.edu.cn)完成资格审核、笔试报名缴费及口试报名缴费。
 
 ### 准考证打印时间
 
@@ -48,3 +48,4 @@ sidebar_position: 2
 
 
 ----------------------------
+[跳转原文](https://cet.neea.edu.cn/html1/report/2409/8-1.htm/)
