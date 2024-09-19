@@ -21,3 +21,14 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+Ze:
+  name: Z-o-o-d
+  title: Owner
+  url: https://ZeEE.TECH
+  image_url: https://github.com/Z-o-o-d.png
+  # page:
+  #   # customize the url of the author page at /blog/authors/<permalink>
+  #   permalink: '/all-sebastien-lorber-articles'
+  socials:
+    github: Z-o-o-d
