@@ -1,3 +1,11 @@
+<!--
+ * @Author: ze 874074406@qq.com
+ * @Date: 2024-09-18 17:37:22
+ * @LastEditors: ze 874074406@qq.com
+ * @LastEditTime: 2024-09-19 13:02:33
+ * @FilePath: \Z-o-o-d.github.io\docs\CET\intro.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 ---
 sidebar_position: 2
 ---
@@ -40,4 +48,3 @@ sidebar_position: 2
 
 
 ----------------------------
-[跳转原文](https://cet.neea.edu.cn/html1/report/2409/8-1.htm)
