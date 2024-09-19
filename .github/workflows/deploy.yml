@@ -23,6 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build website
+        run: npm init docusaurus
+      - name: Build website
         run: npm run build
 
       - name: Upload Build Artifact
