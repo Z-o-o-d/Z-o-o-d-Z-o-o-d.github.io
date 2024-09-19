@@ -3,10 +3,6 @@
 sidebar_position: 2
 ---
 
-# 12月14日考试
-
-**2024/12/14 Saturday**
-
 -----------------------------
 [中国研究生招生信息网](https://yjsglxt.scau.edu.cn/open/Wechat/SsZsZyml/ZyInfo.aspx?xxfs=1&yxsh=360&zydm=085401&nd=2022)
 085401 | 新一代电子信息技术（含量子技术等）  （全日制）
