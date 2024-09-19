@@ -6,6 +6,9 @@
 
 import { themes as prismThemes } from 'prism-react-renderer';
 
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ZeEE.TECH',
@@ -46,6 +49,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -77,7 +82,15 @@ const config = {
     ],
   ],
 
-
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
 
 
 
@@ -92,9 +105,9 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
+
+
         items: [
-
-
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
