@@ -46,3 +46,10 @@ npm run build
 npm run start
 ```
 
+### 添加latex支持
+
+
+```
+npm install --save remark-math@6 rehype-katex@7
+```
+[完整官方教程](https://docusaurus.nodejs.cn/docs/markdown-features/math-equations)
