@@ -34,13 +34,15 @@ $$
 ![](https://storage.simpletex.cn/view/f71ZkwHDolAkEwnS9ZxKE818riy7lRKIc)
 
 
-
+### 双曲余弦函数
 $(2)y=\frac{\mathrm{e}^x+\mathrm{e}^{-x}}{2}$叫作双曲余弦函数，其图像如图 1-4所示，它是偶函数，是一种特殊的悬链线，约翰·伯努利解决了这个问题那不是抛物线$y=x^2$,而是悬链线$y=\frac\alpha2\left(\mathrm{e}^{\frac x\alpha}+\mathrm{e}^{\frac x\alpha}\right)$,取$a=1$,便是此例.
 
 ![](https://storage.simpletex.cn/view/fXB9PaFt2dX0l5raFc9xkRXYepPdcg5oC)
 
 
-
+$$
+y=\ln(x+\sqrt{x^{2}+1})\\-y=-\ln(x+\sqrt{x^{2}+1})\\-y=\ln\frac{(x-\sqrt{x^{2}+1})}{(x+\sqrt{x^{2}+1})(x-\sqrt{x^{2}+1})}\\-y=\ln\frac{(\sqrt{x^{2}+1}-x)}{1}\\e^{y}=x+\sqrt{x^{2}+1}\textcircled{1}\\e^{-y}=\sqrt{x^{2}+1}-x\textcircled{2}\\\textcircled{1}-\textcircled{2}\Rightarrow e^{y}-e^{-y}=2x\Rightarrow x=\frac{e^{y}-e^{-y}}{2}
+$$
 ## 思路
 
 碰到 ln 想到负号
