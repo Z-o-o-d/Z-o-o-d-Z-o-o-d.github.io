@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+Yanex:
+  label: 研究生考试
+  permalink: /Yanex
+  description: 研究生考试
