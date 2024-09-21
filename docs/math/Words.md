@@ -2,19 +2,124 @@
 
 ## 基本运算
 
-### ln
+
+### $\ln(x)$
 
 $$
 \ln(ab) = \ln a + \ln b
-$$
-
-$$
+,
 \ln\left(\frac{a}{b}\right) = \ln a - \ln b
-$$
-
-$$
+,
 \ln(a^b) = b \ln a
 $$
+
+### $x^n$
+$$
+a^{\alpha}\bullet a^{\beta}=a^{\alpha+\beta} , \frac{a^{\alpha}}{a^{\beta}}=a^{\alpha-\beta} , (a^{\alpha})^{\beta}=a^{\alpha\beta} , (ab)^{\alpha}=a^{\alpha}b^{\alpha} , \left(\frac{a}{b}\right)^{\alpha}=\frac{a^{\alpha}}{b^{\alpha}} ,
+$$
+
+
+### $(x)\prime$基本初等函数的导数公式
+$$
+\begin{aligned}
+(x^a) ^\prime  &=ax^{a- 1} (a为常数)
+\\
+( a^x) ^\prime  &= a^x\ln a
+\\
+(\mathrm{e}^{\mathrm{x}})^{\prime} &=\mathrm{e}^{\mathrm{x}}
+\\
+(\log_{\mathrm{a}}x) ^\prime  &= \frac 1{\mathrm{x} \ln \mathrm{a} } (a>0,a\neq1)
+\\
+(\ln x )^\prime &=\frac1x   
+\\
+(\sin x )^\prime &=\cos x  
+\\
+(\cos x )^\prime &=-\sin x  
+\\
+\left(\arcsin\text{x}\right)^{\prime} &=\frac1{\sqrt{1-\mathrm{x}^2}}   
+\\
+(\arccos x )^\prime &=-\frac1{\sqrt{1-\mathrm{x}^2}}   
+\\
+(\tan x )^\prime &=\sec^2 x  
+\\
+\left(\cot\text{x}\right)^{\prime} &=-\csc^2 x  
+\\
+(\arctan x )^\prime &=\frac1{1+\mathrm{x}^2}   
+\\
+(\operatorname{arccot} x )^\prime &=-\frac1{1+\mathrm{x}^2}   
+\\
+\left ( \sec \text{x}\right ) ^{\prime } &= \sec x \cdot \tan x  
+\\
+\left(\csc x\right)^{\prime} &=-\csc x\cdot\cot x
+\\
+[\ln(\mathrm x+\sqrt{\mathrm x^2+1})]' &=\dfrac{1}{\sqrt{\mathrm x^2+1}}
+\\
+[\ln(\mathrm x+\sqrt{\mathrm x^2-1})]' &=\dfrac{1}{\sqrt{\mathrm x^2-1}}
+\end{aligned}
+$$
+
+### 高阶导数的运算
+$$
+\mathrm{[u\pm v]^{(n)}=u^{(n)}\pm v^{(n)}}
+$$
+
+$$
+\begin{aligned}\left(\mathrm{uv}\right)^{\left(\mathrm{n}\right)}&=\mathrm{u^{(n)}v+C_n^1u^{(n-1)}v^{\prime}+C_n^2u^{(n-2)}v^{\prime\prime}+...+C_n^ku^{(n-k)}v^{(k)}+...+C_n^{n-1}u^{\prime}v^{(n-1)}+uv^{(n)}}\\&=\sum_{\mathrm{k=0}}^\mathrm{n}\mathrm{C_n^ku^{(n-k)}v^{(k)}}\end{aligned}
+$$
+
+
+###  $\int$ 基本积分公式
+
+
+以下公式中,$\alpha$与$a$均为常数,除声明者外,$a>0$
+$$
+\begin{aligned}
+\int\mathrm x^a\mathrm d\mathrm x&=\frac{1}{\alpha+1}\mathrm x^{\alpha+1}+\mathrm C\quad(\alpha\neq-1)
+\\
+\int\frac{1}{\mathrm{x}}dx&=\ln|x|+C
+\\
+\int a^{x}dx&=\frac {a^{x}}{\ln a}+ C\:( a> 0, a\neq1) 
+\\
+\int e^xdx&= e^x+ C
+\\
+\int\sin\mathrm{xdx}&=-\cos\mathrm{x}+\mathrm{C}
+\\
+\int\cos\mathrm{xdx}&=\sin\mathrm{x}+\mathrm{C}
+\\
+\int\tan xdx&=-\ln\cos |x|+C
+\\
+\int\cot\mathrm{xdx}&=\ln|\sin\mathrm{x}|+\mathrm{C}
+\\
+\int\sec\mathrm{xdx}&=\ln|\sec\mathrm{x}+\tan\mathrm{x}|+\mathrm{C}
+\\
+\int\csc\mathrm{xdx}&=\ln|\csc\mathrm{x}-\cot\mathrm{x}|+\mathrm{C}
+\\
+\int\sec^{2}xdx&=\tan x+C
+\\
+\int\csc^{2}xdx&=-\cot x+C
+\\
+\int\frac{1}{\mathrm{a}^{2}+\mathrm{x}^{2}}dx&=\frac1{\mathrm{a}}\arctan\frac{\mathrm{x}}{\mathrm{a}}+C
+\\
+\int\frac{1}{\mathrm{a}^{2}-\mathrm{x}^{2}}dx&=\frac1{2\mathrm{a}}\ln|\frac{\mathrm{a}+\mathrm{x}}{\mathrm{a}-\mathrm{x}}|+C
+\\
+\int\frac{1}{\sqrt{\mathrm{a}^{2}-\mathrm{x}^{2}}}dx&=\arcsin\frac{\mathrm{x}}{\mathrm{a}}+C
+\\
+\int\frac1{\sqrt{\mathrm{x}^2\pm\mathrm{a}^2}}\:\mathrm{dx}&=\ln|\mathrm{x}+\sqrt{\mathrm{x}^2\pm\mathrm{a}^2}|+\mathrm{C}
+\end{aligned}
+$$
+
+### $\int$ 重要积分公式
+
+
+$$\int_{-\infty}^{+\infty}\mathrm{~e^{-x^2}dx}=2\int_0^{+\infty}\mathrm{~e^{-x^2}dx}=\sqrt{\pi}$$
+
+$$\int_0^{+\infty}\mathrm{x^ne^{-x}dx=n!}$$ 
+
+$$\mathrm{\int_{-a}^af(x)dx=\int_0^a[f(x)+f(-x)]dx}$$
+
+$$\int_0^\pi\mathrm{xf(\sin x)dx}=\frac\pi2\int_0^\pi\mathrm{f(\sin x)dx}=\pi\int_0^{\frac\pi2}\mathrm{f(\sin x)dx}$$
+
+$$\int_\mathrm{a}^\mathrm{b}\mathrm{f(x)dx}=(\mathrm{b-a})\int_0^1\mathrm{f[a+(b-a)x]dx}$$
 
 
 ## 结论
