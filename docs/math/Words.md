@@ -12,10 +12,60 @@ $$
 ,
 \ln(a^b) = b \ln a
 $$
+$$
+\begin{aligned}
+\text{常用公式}:\ln\sqrt{x}&=\frac{1}{2}\ln x \\ \ln\frac{1}{x}&=-\ln x \\ \ln\biggl(1+\frac{1}{x}\biggr)&=\ln\frac{x+1}{x}=\ln(x+1)-\ln x
+\end{aligned}
+$$
 
 ### $x^n$
 $$
-a^{\alpha}\bullet a^{\beta}=a^{\alpha+\beta} , \frac{a^{\alpha}}{a^{\beta}}=a^{\alpha-\beta} , (a^{\alpha})^{\beta}=a^{\alpha\beta} , (ab)^{\alpha}=a^{\alpha}b^{\alpha} , \left(\frac{a}{b}\right)^{\alpha}=\frac{a^{\alpha}}{b^{\alpha}} ,
+\begin{aligned}
+a^{\alpha}\bullet a^{\beta}=a^{\alpha+\beta} , \frac{a^{\alpha}}{a^{\beta}}=a^{\alpha-\beta} , (a^{\alpha})^{\beta}=a^{\alpha\beta} , (ab)^{\alpha}=a^{\alpha}b^{\alpha} , \left(\frac{a}{b}\right)^{\alpha}=\frac{a^{\alpha}}{b^{\alpha}} 
+
+\end{aligned}
+$$
+
+
+$$
+\begin{aligned}
+\text{常用公式}:x&=\mathrm{e}^{\ln x}(x>0)\\ u^{\nu}&=\mathrm{e}^{\ln u^{\nu}}=\mathrm{e}^{\nu\ln u}(u>0)
+\end{aligned}
+$$
+
+### 重要极限公式
+
+$\lim_{\mathrm{x}\to0^+}\mathrm{x}^\alpha\ln$x=0 其中$a>0$
+
+$\operatorname* { lim} _{\mathbf{x} \to 0^{+ }}$ $\mathbf{x} ^{\alpha }( \ln$x$) ^\mathrm{k} = 0$ 其中$\alpha > 0$, $\mathbf{k} > 0$
+
+$\lim _{\mathrm{x} \to + \infty }$ $x^{\alpha }e^{- \delta \mathrm{x} }$= 0 其中$\alpha > 0$, $\delta > 0$
+
+$\lim _{\mathrm{x\to 0}}\frac {\sin \mathrm{x} }{\mathrm{x} }= 1$ $\Longrightarrow \lim _{\mathrm{\phi ( x) \to 0}}\frac {\sin \mathrm{\phi ( x) }}{\mathrm{\phi ( x) }}= 1$ 其中$\phi($x$)\neq0$
+
+$\lim_{\mathrm{x\to0}}(1+$x$)^\frac1x=$e $\Longrightarrow \lim _\mathrm{\phi ( x) \to 0}( 1+ \phi ($x$))^\frac1{\phi(x)}=$e 其中$\phi($x$)\neq0$
+
+$\lim_{\text{n}\to\infty}\sqrt[\text{n}]{\text{n}}=1$
+
+$\lim _{\mathrm{n} \to \infty }\sqrt [ n] {\mathrm{a} }= 1$ (常数a>0)
+
+
+### 常用等价无穷小
+
+x$\to0$时，
+
+$$
+\sin\mathrm{x}\sim\tan\mathrm{x}\sim\arcsin\mathrm{x}\sim\arctan\mathrm{x}\sim(\mathrm{e}^\mathrm{x}-1)\sim\ln(1+\mathrm{x})\sim\mathrm{x}\:
+$$
+$$
+\:1-\cos\mathrm{x}\sim\frac{1}{2}\mathrm{x}^2\: 
+$$
+
+$$
+(1+x)^a-1\sim ax~
+$$
+$$
+~a^x-1\sim x\ln a~(a>0,a\neq1)
 $$
 
 
@@ -174,3 +224,11 @@ $$
 \sqrt{u^{2}}=|u|
 $$
 
+出现$\ln$时可以用$1=\ln e$来凑,也可能
+$\sin^2\alpha+\cos^2\alpha=1$
+
+$\infin \text{是两个点，要小心，因为函数唯一性}$
+
+给出$e^x$求$a^x$要变换成$e^{x\ln a}$ ($\mathrm{e}^{x}=\sum_{n=0}^{\infty}\frac{x^{n}}{n!}$)
+
+没思路可以尝试逆运算
