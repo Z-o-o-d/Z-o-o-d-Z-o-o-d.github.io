@@ -182,6 +182,43 @@ $$\int_0^\pi\mathrm{xf(\sin x)dx}=\frac\pi2\int_0^\pi\mathrm{f(\sin x)dx}=\pi\in
 $$\int_\mathrm{a}^\mathrm{b}\mathrm{f(x)dx}=(\mathrm{b-a})\int_0^1\mathrm{f[a+(b-a)x]dx}$$
 
 
+
+### 泰勒公式
+
+-   泰勒公式
+
+    $$\begin{aligned}\mathrm{f(x)}&=\frac{\mathrm{f(a)}}{0!}\:+\:\frac{\mathrm{f'(a)}}{1!}\:(\mathrm{x}-\mathrm{a})\:+\:\frac{\mathrm{f''(a)}}{2!}\:(\mathrm{x}-\mathrm{a})^{2}\:+\:...\:+\:\frac{\mathrm{f^{(n)}(a)}}{\mathrm{n!}}\:(\mathrm{x}-\mathrm{a})^{\mathrm{n}}\:+\:\mathrm{R_{n}(x)}\\&=\lim_{\mathrm{n\to\infty}}\sum_{\mathrm{i=0}}^{\mathrm{n}}\frac{\mathrm{f^{(n)}(a)}}{\mathrm{n!}}\left(\mathrm{x-a}\right)^{\mathrm{n}}\end{aligned}$$
+
+
+- 拉格朗日余项的泰勒公式
+
+    $$
+    \mathrm{f(x)=\frac{f(a)}{0!}+\frac{f'(a)}{1!}\left(x-a\right)+\frac{f''(a)}{2!}\left(x-a\right)^2+...+\frac{f^{(n)}(a)}{n!}\left(x-a\right)^n+\frac{f^{(n+1)}(\xi)}{(n+1)!}\left(x-a\right)^{n+1}}
+    $$
+
+    其中$\xi$介于x，a之间
+
+- 佩亚诺余项的泰勒公式
+
+    $$
+    \mathrm{f(x)=\frac{f(a)}{0!}+\frac{f'(a)}{1!}(x-a)+\frac{f''(a)}{2!}(x-a)^2+...+\frac{f^{(n)}(a)}{n!}(x-a)^n+o((x-a)^n)}
+    $$
+
+### 常用的泰勒展开式
+
+$$\begin{aligned}&\sin\mathrm{x}=\mathrm{x}-\frac{\mathrm{x}^3}{3!}+\mathrm{o}(\mathrm{x}^3)\\&\cos\mathrm{x}=1-\frac{\mathrm{x}^2}{2!}+\frac{\mathrm{x}^4}{4!}+o(\mathrm{x}^4)\\&\arcsin\mathrm{x}=\mathrm{x}+\frac{\mathrm{x}^3}{3!}+o(\mathrm{x}^2)\\&\tan\mathrm{x}=\mathrm{x}+\frac{\mathrm{x}^3}3+o(\mathrm{x}^2)\\&\tan\mathrm{x}=\mathrm{x}+\frac{\mathrm{x}^3}3+o(\mathrm{x}^2)\\&\arctan\mathrm{x}=\mathrm{x}-\frac{\mathrm{x}^3}3+\frac{\mathrm{x}^5}5+o(\mathrm{x}^5)\\&(1+\mathrm{x})^a=1+a\mathrm{x}+\frac{a(a-1)}{2!}\mathrm{x}^2+o(\mathrm{x}^2)\\&\frac1{1-\mathrm{x}}=1+\mathrm{x}+\mathrm{x}^2+\mathrm{x}^3+o(\mathrm{x}^3)\\&\frac1{1+\mathrm{x}}=1-\mathrm{x}+\mathrm{x}^2-\mathrm{x}^3+o(\mathrm{x}^3)\\&\ln(1+\mathrm{x})=\mathrm{x}-\frac{\mathrm{x}^2}2+\frac{\mathrm{x}^3}3-\frac{\mathrm{x}^4}4+o(\mathrm{x}^4)\\&\frac1{1+\mathrm{x}^2}=1-\mathrm{x}^2+\mathrm{x}^4-\mathrm{x}^6+o(\mathrm{x}^6)\\&\mathrm{e}^{\mathrm{x}}=1+\mathrm{x}+\frac{\mathrm{x}^2}{2!}+\frac{\mathrm{x}^3}{3!}+o(\mathrm{x}^3)\end{aligned}$$
+
+口诀：指对连，三角断，三角对数隔一换，三角指数有感叹，反三角它同又乱
+
+指对连：指数函数、对数函数，都是12345连续的
+
+三角断：三角函数的展开式是135，246这样不连续的三角对数隔一换：三角函数和对数函数的符号隔一个换一次
+
+三角指数有感叹：三角函数和指数函数中分母有阶层 (感叹号)
+
+反三角它同又乱：反三角函数的和三角函数第一项相同，第二项为相反数
+
+
 ## 结论
 
 $$
