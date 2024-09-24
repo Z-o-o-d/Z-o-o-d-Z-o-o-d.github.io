@@ -49,8 +49,18 @@ $\lim_{\text{n}\to\infty}\sqrt[\text{n}]{\text{n}}=1$
 
 $\lim _{\mathrm{n} \to \infty }\sqrt [ n] {\mathrm{a} }= 1$ (常数a>0)
 
+$$
 
-### 常用等价无穷小
+{x\rightarrow0.e^{x}-1\sim x}
+$$
+$$
+{f(x)\rightarrow0.e^{f(x)}-1\sim f(x)}
+$$
+$$
+\lim_{x\to0}x-\sin x=\frac{1}{6}{x^{3}}
+$$
+
+### 常用等价无穷小(求极限)
 
 x$\to0$时，
 
@@ -67,6 +77,7 @@ $$
 $$
 ~a^x-1\sim x\ln a~(a>0,a\neq1)
 $$
+![alt text](img/infin0.jpeg)
 
 
 ### $(x)\prime$基本初等函数的导数公式
@@ -107,7 +118,6 @@ $$
 [\ln(\mathrm x+\sqrt{\mathrm x^2-1})]' &=\dfrac{1}{\sqrt{\mathrm x^2-1}}
 \end{aligned}
 $$
-
 ### 高阶导数的运算
 $$
 \mathrm{[u\pm v]^{(n)}=u^{(n)}\pm v^{(n)}}
@@ -213,22 +223,28 @@ $$
 
 ## 思路
 
-碰到 ln 想到负号
+碰到 ln 想到负号以变成倒数来求
 
 复合函数$f(x)g(x)$可以当作运算符
 
+出现$\ln$时可以用$1=\ln e$来凑,也可能
+$\sin^2\alpha+\cos^2\alpha=1$
+
+
+给出$e^x$求$a^x$要变换成$e^{x\ln a}$ ($\mathrm{e}^{x}=\sum_{n=0}^{\infty}\frac{x^{n}}{n!}$)
+
+没思路可以尝试逆运算
+
+
+$$
+u(x)^{v(x)}\overset{100\%}{\operatorname*{=}}e^{v(x)\ln u(x)}
+$$
 ## 注意
+$\infin \text{是两个点，要小心，因为函数唯一性}$
 
 平方后开根号是绝对值
 $$
 \sqrt{u^{2}}=|u|
 $$
 
-出现$\ln$时可以用$1=\ln e$来凑,也可能
-$\sin^2\alpha+\cos^2\alpha=1$
 
-$\infin \text{是两个点，要小心，因为函数唯一性}$
-
-给出$e^x$求$a^x$要变换成$e^{x\ln a}$ ($\mathrm{e}^{x}=\sum_{n=0}^{\infty}\frac{x^{n}}{n!}$)
-
-没思路可以尝试逆运算
